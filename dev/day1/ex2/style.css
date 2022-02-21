@@ -30,6 +30,7 @@ header {
 nav {
     height: 50px;
     background-color: #0652ddde;
+    color: #fff;
 }
 
 .bigger-main {
@@ -39,6 +40,12 @@ nav {
 main {
     flex: 1;
     min-height: 330px;
+    font-size: 40px;
+}
+
+.gradient {
+    height: 50px;
+    background-image: linear-gradient(to bottom, #fff, rgb(72 219 251 / 65%));
 }
 
 .sidebar {
