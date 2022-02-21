@@ -22,14 +22,14 @@ body {
 }
 
 header {
-    background-color: #0984e3;
+    background-color: #2e86decf;
     color: #fff;
     height: 100px;
 }
 
 nav {
     height: 50px;
-    background-color: #ff7675;
+    background-color: #0652ddde;
 }
 
 .bigger-main {
@@ -38,7 +38,6 @@ nav {
 
 main {
     flex: 1;
-    background-color: rgb(128, 128, 128);
     min-height: 330px;
 }
 
@@ -50,22 +49,23 @@ main {
 
 .sidebar aside {
     flex: 1;
-    background-color: #fed330;
+    background-color: rgb(72 219 251 / 65%);
 }
 
 .sidebar section {
     flex: 1;
-    background-color: #f7b731;
+    background-color: rgb(10 189 227 / 76%);
 }
 
 aside {
-    background-color: #FDA7DF;
+    background-color: #01a3a4;
     height: 80px;
 }
 
 footer {
-    background-color: #26de81;
+    background-color: #0652ddde;
     height: 100px;
+    color: #fff;
 }
 
 @media screen and (max-width: 720px) {
