@@ -98,3 +98,17 @@ footer:hover {
     background-color: #ff4d4d;
     cursor: pointer;
 }
+
+@media screen and (max-width: 720px) {
+    main {
+        display: block;
+    }
+    
+    aside {
+        height: 200px;
+    }
+
+    section {
+        width: 90%;
+    }
+}
