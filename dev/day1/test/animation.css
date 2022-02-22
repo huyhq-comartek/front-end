@@ -1,0 +1,12 @@
+.spinner {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: tomato solid 20px;
+    border-right-color: #fff;
+    animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+    to {transform: rotate(360deg)}
+}
