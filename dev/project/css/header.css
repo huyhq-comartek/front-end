@@ -23,13 +23,26 @@ header {
 .main-nav .nav-child {
     height: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
-.main-nav .nav-child:hover {
+.main-nav .nav-child:not(:first-child)::before {
+    display: block;
+    content: '';
+    height: 9px;
+    border-left: 0.5px solid #C6C6C6;
+    margin-right: 17px;
+}
+
+.main-nav .nav-child a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.main-nav .nav-child:hover a {
     color: #0090FF;
-    border-top: #0090FF solid 2px;
+    box-shadow:inset 0 2px #0090FF;
 }
 
 #sub-header {
@@ -52,7 +65,12 @@ header {
     margin-left: 14.58px;
     opacity: 0.8;
     color: #666666;
+    width: 70%;
 }
+
+#trending-animation {
+    width: 100%;
+} 
 
 #other-trending {
     margin-left: auto;
